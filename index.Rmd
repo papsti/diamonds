@@ -1,0 +1,15 @@
+---
+title: Exploring the `diamonds` data set
+author: Irena Papst
+date: now
+---
+
+```{r setup}
+library(ggplot2)
+```
+
+```{r}
+(ggplot(diamonds, aes(x = carat, y = price, colour = cut))
+    + geom_point()
+)
+```
