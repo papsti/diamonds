@@ -1,1 +1,5 @@
-**need to rename main branch from `master` to `main` both locally and on `origin`**
+# diamonds
+
+Generate a report to explore `ggplot2`'s built in `diamonds` data set.
+
+Created as part of the posit::conf(2024) "R in Production" workshop.
